@@ -1,0 +1,17 @@
+
+
+:root{
+--background-color: #49306bff;
+--primary-color: #efbdebff;
+--secondary-color: #b68cb8ff;
+--text-color:white;
+}
+
+
+body{
+    background-color: var(--background-color);
+    /* color:var(--text-color); */
+    font-family: 'Montserrat', sans-serif;
+}
+
+

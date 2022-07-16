@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% from "components/card.html" import card %}
+
+{% block title %}Home page{% endblock %}
+
+{% block content %}
+    <h1>Index</h1>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            {{card("https://via.placeholder.com/200x300.png?text=Visit+WhoIsHostingThis.com+Buyers+Guide",'title','description')}}
+
+          </div>
+          <div class="col">
+            {{card("https://via.placeholder.com/200x300.png?text=Visit+WhoIsHostingThis.com+Buyers+Guide",'title','description')}}
+
+          </div>
+          <div class="col">
+            {{card("https://via.placeholder.com/200x300.png?text=Visit+WhoIsHostingThis.com+Buyers+Guide",'title','description')}}
+
+          </div>
+        </div>
+      </div>
+     
+    <a href="/about"> Go the about page </a>
+{% endblock %}
+
+
+

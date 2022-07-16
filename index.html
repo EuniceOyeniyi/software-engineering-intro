@@ -1,0 +1,142 @@
+<html>
+    <head> <!-- contains the configuration of the page -->
+            <!-- #Things to include in the this section includes:
+            Title of the page
+            import ecternal files (styles, fonts, script)
+            metadata for SEO (what Google crawler will see)
+            metadat for sharing on social(facebook, twitter etc)
+         -->
+        <title> First html code</title>
+        <style> 
+        body{
+            background: blanchedalmond ;
+        }
+        </style>
+    </head>
+    
+        <body> <!--# contains the content of the page -->
+            <!-- #Things to include in the this section includes
+                TExt,paragraphs, sections
+                images, links
+                lists, scripts, tables            
+            -->
+            <h1> New Adventure</h1>
+            <h2> Launching with live server</h2>
+
+            <p> This is gonna be fun! for real!</p>
+
+
+            <span>  <!-- usally used to style parts of a paragraph. Its an in-line element  -->
+                unlike the paragraph span continues on same line
+            </span>
+            <span> <span style="color:red"> the next span starts here</span> contunues here</span>
+
+            <br />
+            <br />
+           <div style="background-color:aqua; border: 4px solid black;">  <!-- a container -->
+                <h2> Main languages in frontend development (unordered list)</h2> 
+                <ul>
+                    <a href="https://html.com/" target="_blank">
+                    <li> <img width="50" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" alt="html logo"/>
+                         HTML
+                    </a>
+                    </li>
+
+                    <a href="https://www.w3schools.com/css/" target="_blank">
+                    <li> <img width="50" src=" https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_640.png" alt="css log"/> 
+                        CSS
+                    </a>
+                    </li>
+
+
+                    <a href="https://www.w3schools.com/js/" target="_blank">
+                    <li> <img width="40" src="https://w1.pngwing.com/pngs/136/126/png-transparent-javascript-logo-angularjs-nodejs-computer-programming-web-development-computer-software-jquery-yellow.png" alt="js logo" />
+                         JavaScript
+                    </a>    
+                    </li>
+                </ul>
+                <h2> Main languages in frontend development (ordered list)</h2>
+                <ol>
+                    <li> HTML</li>
+                    <li> CSS</li>
+                    <li> Javascript</li>
+                </ol>
+            </div>
+            <br />
+            <a href="https://strive.school/es-ES" target="_blank"> Go to Strive School Website </a> <!-- target was added so that the links opens in a new tab --> 
+
+            <table>
+                <!-- tr for table rows
+                th for table headings
+                td for table normal cells  -->
+                <tr>
+                    <th> Student Name</th>
+                    <th> HTML Score</th>
+                    <th> CSS Score</th>
+                    <th> JS Score</th>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td> 15</td>
+                    <td> 15</td>
+                    <td> 15</td>
+                </tr>
+                <tr>
+                    <td>Adeife</td>
+                    <td> 100</td>
+                    <td> 100</td>
+                    <td> 100</td>
+                </tr>
+                <tr>
+                    <td>Ope</td>
+                    <td> 15</td>
+                    <td> 15</td>
+                    
+                </tr>
+            </table>
+
+            <!-- <br />
+            <br />
+            <br /> -->
+            <h1> About Inputs, Forms, buttons tags</h1>
+            <form onsubmit="alert('Thanks for your submission')"> 
+                <div>
+                    <input type="text" placeholder="Please, isert your name"/>
+                </div>
+
+                <div>
+                    <input type="email" placeholder="Please, enter your email address" />
+                </div>
+
+                <div>
+                    <input type="password" placeholder="Enter your password"/>
+                </div>
+                <div>
+                    <label> Permit card</label>
+                    <input type="checkbox"/>
+                </div>
+                <div>
+                    <input type="file" />
+                </div>
+
+                <div>
+                    <input type="color"/>
+                </div>
+                
+                <div>
+                    <button type="submit"> Submit form</button>
+                </div>
+            </form>
+            <br />
+            <br />
+            <br />
+            <button onclick="alert('Hello')"> Say Hello</button>
+            <button onclick="alert('Hey')"> Say Hey</button>
+            
+
+
+            
+           
+        </body>
+    
+</html>

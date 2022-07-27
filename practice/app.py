@@ -38,7 +38,6 @@ def upload_file():
             # return redirect(url_for('download_file', name=filename))
             return f'<h2>{filename} uploaded successfully!!! </h2>'
         
-        
 
     return render_template('index.html')
 
